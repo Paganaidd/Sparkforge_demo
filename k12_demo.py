@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🔥 SPARK OS K-12 EDUCATIONAL CONSTELLATION 🔥
+🔥 SPARKFORGE K-12 EDUCATIONAL CONSTELLATION 🔥
 Complete standalone demo system with real OpenAI integration
 """
 
@@ -360,16 +360,18 @@ INDEX_HTML = """
             width: 100%;
             margin-bottom: 10px;
             padding: 10px;
-            background: #f0f0f0;
+            background: #2196F3;
+            color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
             text-align: left;
             transition: background 0.3s;
+            font-weight: 500;
         }
         
         .scenario-btn:hover {
-            background: #e0e0e0;
+            background: #1976D2;
         }
         
         .safety-monitor {
