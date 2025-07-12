@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🔥 SPARKFORGE K-12 EDUCATIONAL CONSTELLATION 🔥
+🔥 SPARK OS K-12 EDUCATIONAL CONSTELLATION 🔥
 Complete standalone demo system with real OpenAI integration
 """
 
@@ -17,7 +17,7 @@ import uuid
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'sparkforge-k12-demo-key'
+app.secret_key = 'spark-os-k12-demo-key'
 
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
